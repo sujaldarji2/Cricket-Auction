@@ -91,8 +91,9 @@ Feel free to fork this repository and contribute to improve the system.
 ---
 
 ## 📌 Author
-**Sujal Darji**
+- **Sujal Darji**
+- **Whatsapp: +91 877-9766-228**
+- **GitHub: sujaldarji2**
+- **Email: sujaldarji270@gmail.com**
 
 ---
-
-⭐ If you like this project, don't forget to star the repo!
