@@ -1,0 +1,12 @@
+<?php
+session_start();
+include '../includes/db-config.php';
+
+if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== true) {
+    http_response_code(401);
+    echo json_encode(['error' => 'Unauthorized']);
+    exit();
+}
+
+$id = intval($_GET['id']);
+$query = mysqli_query($conn, "SELECT * FROM
